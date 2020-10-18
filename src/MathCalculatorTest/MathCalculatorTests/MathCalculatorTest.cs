@@ -14,6 +14,10 @@ namespace MathCalculatorTests
             const int Three = 3;
 
             MathCalculator calculator = new MathCalculator();
+
+            var result = calculator.Sum(5,3);
+
+            Assert.Equal(8,result);
         }
     }
 }
